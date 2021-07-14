@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 const Login = () => {
     return(
@@ -7,7 +8,6 @@ const Login = () => {
             <form>
                     <h1 className="login-h1">LOGIN</h1>
                     <h2>Please enter Your Username and Password</h2>
-                    {/* <img src={logo} alt="login-img" /> */}
                     <div className="login-form-area">
                         <div className="login-input-field">
                             <input type="text" name="username" placeholder="Username" className="login-username"/>
@@ -20,8 +20,10 @@ const Login = () => {
                         </div>
                     </div>
                     <h3>Forgot Password?</h3>
-                    <span>Not Registered Yet? </span>
-                    <span><a href="/sign-up" >Sign Up</a></span>
+                    <span>Not Registered Yet?</span>
+                    <Link to='/sign-up' style={{ textDecoration: 'none' }}>
+                        <span className="link"><u>SignUp</u></span>
+                    </Link>
                 </form>
             </div>
         </div>
