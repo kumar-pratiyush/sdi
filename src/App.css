@@ -123,6 +123,35 @@ h3 {
     background-color: rgb(3, 219, 50);
 }
 
+.registered {
+    text-align: center;
+    align-items: center;
+}
+
+.success-img {
+    padding-top: 100px;
+}
+
+.registered>h1 {
+    padding: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.landing {
+    text-align: center;
+    align-items: center;
+}
+
+.landing>h1 {
+    padding: 50px;
+    padding-top: 200px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.landing>h2 {
+    padding-top: 100px;
+}
+
 @media (min-width: 900px) and (max-width: 1150px) {
     .box {
         margin-left: 20%;
